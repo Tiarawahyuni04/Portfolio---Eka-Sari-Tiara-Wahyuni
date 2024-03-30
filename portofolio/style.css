@@ -73,7 +73,7 @@ a {
 
 /* Buttons */
 .pushable {
-  background: #76ABAE;
+  background: #608c8f;
   border: none;
   border-radius: 3px;
   padding: 0;
@@ -143,6 +143,12 @@ nav ul {
   gap: 3rem;
 }
 
+.nav li :hover {
+  color: var(--primaryIconColorHover);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
 /* Logo */
 .logo {
   display: flex;
@@ -196,10 +202,6 @@ nav ul li a {
   font-size: 3rem;
   font-weight: 700;
   margin: 0.5rem 0 1rem;
-}
-
-.hero-name span {
-  color: var(--primaryIconColor) !important;
 }
 
 .hero-right img {
@@ -311,6 +313,7 @@ nav ul li a {
   display: flex;
   gap: 1rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .portfolio-tags div {
